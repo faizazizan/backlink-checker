@@ -21,7 +21,7 @@ def fetch_backlinks(url):
         return []
 
 def main():
-    st.title("Backlink Analyzer")
+    st.title("Link Analyzer")
 
     url = st.text_input("Enter the URL of the page to analyze:")
     if st.button("Analyze"):
